@@ -9,7 +9,7 @@ Este plugin permite que você crie "JumpPads" no seu servidor Minecraft, onde os
 - **Comando de configuração:** Use o comando `/jp` para configurar a força e a direção dos JumpPads.
 
 ## Requisitos
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java">
   <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle">
 </p>
