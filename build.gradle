@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'github.com.preblons'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/public/' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    testImplementation 'junit:junit:4.12'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'github.com.preblons.Main'
+        )
+    }
+}
+
+task buildJar(type: Jar) {
+    from sourceSets.main.output
+    manifest {
+        attributes(
+                'Main-Class': 'github.com.preblons.Main'
+        )
+    }
+}

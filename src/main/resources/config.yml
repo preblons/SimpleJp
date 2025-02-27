@@ -1,0 +1,4 @@
+# som que irá tocar ao pisar em algum jumppad.
+sound:
+  activate: true
+  som: "ENTITY_PLAYER_LEVELUP"

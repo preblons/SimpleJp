@@ -1,0 +1,12 @@
+name: PreblonsJP
+version: 1.0
+main: github.com.preblons.Main
+api-version: 1.8.8
+commands:
+  jp:
+    description: Configura um Jump Pad
+    usage: /<command> <força> <cima/olho>
+permissions:
+  preblons.jp:
+    description: Permissão para configurar Jump Pads
+    default: op
